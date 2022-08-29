@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 550px;
+  margin: 0px auto;
+  padding: 15px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.948);
+  border-radius: 8px;
+  margin-top: 225px;
+  background-color: white;
+}
+
+.card > h1 {
+  font-size: 25px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer h2 {
+  margin: 0px auto;
+  margin-right: 10px;
+  font-size: 15px;
+  font-style: italic;
+  padding: 5px;
+}
+
+.footer button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0px auto;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
